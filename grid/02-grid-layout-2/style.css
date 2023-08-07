@@ -9,6 +9,11 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 12.5% 12.5% 37.5% 12.5%;
+  
 }
 
 .container div {
@@ -28,6 +33,7 @@ html {
 .sidebar {
   background-color: #005B94;
   grid-row: 2 / 4;
+  grid-column: 1 /2;
 }
 
 .nav {
